@@ -17,7 +17,7 @@ namespace ConsoleApp14
 
             // connect to the Data Base
             using (SQLiteConnection con =
-                new SQLiteConnection("Data Source = e:\\sqlite\\sqlite-tools-win32-x86-3250300\\db1.db; Version = 3;"))
+                new SQLiteConnection("Data Source = c:\\sqlite\\db1.db; Version = 3;"))
             {
 
                 // open the connection
